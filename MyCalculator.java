@@ -13,18 +13,3 @@ public int divisorSum(int n){
     else return sum;
 }
 }
-
-package lab_ex;
-
-import java.util.Scanner;
-
-public class Divisors {
-
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-      	AdvancedArithmetic MyCalculator=new MyCalculator(); 
-        int sum=MyCalculator.divisorSum(n);
-        System.out.println("I implemented: AdvancedArithmetic\n"+sum);
-    }
-}
